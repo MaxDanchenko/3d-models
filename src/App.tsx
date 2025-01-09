@@ -20,7 +20,7 @@ const App = ({ className }: Props): JSX.Element => {
     setTimeout(() => {
       setIsVideoVisible(true);
       setIsDamageVisible(false);
-    }, 800)
+    }, 700)
   };
 
   const handleVideoEnd = () => {
