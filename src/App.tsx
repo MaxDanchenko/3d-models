@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import SceneBg from '../public/assets/bg.jpg';
+import SceneBg from './assets/bg.jpg';
 import styled from '@emotion/styled';
 import CanvasComponent from './CanvasComponent';
 import { Button } from '@mui/material';
@@ -48,7 +48,7 @@ const App = ({ className }: Props): JSX.Element => {
       {isVideoVisible && (
         <VideoOverlay>
           <Video
-            src="/public/assets/animation.mp4"
+            src="/src/assets/animation.mp4"
             autoPlay
             controls
             onEnded={handleVideoEnd}
